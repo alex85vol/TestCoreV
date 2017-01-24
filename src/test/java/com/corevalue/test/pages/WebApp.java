@@ -32,7 +32,7 @@ public class WebApp {
 
     public static enum Browsers {
         DEFAULT_TEMPORARY("ChromeTemporary", new ChromeTemporary()),
-        CHROME_TEMPORARY("ChromeTemporary", new ChromeTemporary()),
+        CHROME_TEMPORARY("ChromeTemporary", new ChromeTemporary());
 
         //
         private String browserName;
@@ -86,11 +86,10 @@ public class WebApp {
          initWebDriver();
      }
 
-    public MainPage load() {
-        //logout();
+    /*public MainPage load() {
         driver.get(webAppSources.getMainPageUrl());
         return new MainPage(driver);
-    }
+    }*/
 
 
 
