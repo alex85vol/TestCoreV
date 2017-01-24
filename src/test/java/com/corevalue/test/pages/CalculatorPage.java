@@ -19,6 +19,7 @@ public class CalculatorPage extends MainPage {
     private WebElement amortizationValue;
     private WebElement paymentFrequency;
     private WebElement interestRateField;
+    private WebElement calculateButton;
 
 
     //endregion
