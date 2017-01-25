@@ -114,6 +114,7 @@ public class WebApp {
             }
         }
         driver = currentBrowser.runBrowser(this);
+        driver.manage().window().maximize();
         driver.manage().timeouts()
                 .implicitlyWait(webAppSources.getImplicitTimeOut(), TimeUnit.SECONDS);
     }
