@@ -1,21 +1,29 @@
 package com.corevalue.test.pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 /**
  * Created by ovo on 24.01.2017.
  */
-public class CalculatorPage extends MainPage {
+public class CalculatorPage extends MainPage  {
+
 
     //region webelements field
+    @FindBy(xpath = "//div[@class='slider-handle min-slider-handle custom'])[1]")
     private WebElement purchasePriceSlider;
+    @FindBy(xpath = "//input[@id='PrixPropriete']")
     private WebElement purchasePriceField;
+    @FindBy(xpath = "//button[@class='PrixProprietePlus']")
     private WebElement purchasePriceIncreaseButton;
+    @FindBy(xpath = "//button[@id='MiseDeFondPlus']")
     private WebElement downPaymentIncreaseButton;
+    @FindBy(xpath = "//input[@id='MiseDeFond']")
     private WebElement downPaymentField;
+    @FindBy
     private WebElement amortizationField;
+    @FindBy(xpath = "//select[@id='Amortissement']/option[@value='" +  "']")
     private WebElement amortizationValue;
     private WebElement paymentFrequency;
     private WebElement interestRateField;
@@ -24,16 +32,9 @@ public class CalculatorPage extends MainPage {
 
     //endregion
 
-    public CalculatorPage(WebDriver driver) {
-        super(driver);
-        this.purchasePriceSlider = driver
-                .findElement(By.xpath(("//div[@class='slider-handle min-slider-handle custom'])[1]")));
-        this.purchasePriceField = driver.findElement(By.xpath("//input[@id='PrixPropriete']"));
-        this.purchasePriceIncreaseButton = driver
-                .findElement(By.xpath("//button[@class='PrixProprietePlus']"));
-        this.downPaymentIncreaseButton = driver.findElement(By.xpath("//button[@id='MiseDeFondPlus']"));
-        this.downPaymentField = driver.findElement(By.xpath("//input[@id='MiseDeFond']"));
+    public CalculatorPage(WebDriver driver) {super(driver);}
 
-
-    }
+    public WebElement getPurchasePriceField(){return this.purchasePriceField;}
+    public WebElement
 }
+

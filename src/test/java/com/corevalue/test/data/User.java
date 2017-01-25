@@ -28,7 +28,7 @@ interface IBuild {
     User build();
 }
 
-public  class User implements IPurchasePrice, IDownPayment, IAmortization,
+public class User implements IPurchasePrice, IDownPayment, IAmortization,
         IPaymentFrequency, IInterestRate, ICalculatedPayments, IBuild, IUser{
 
     private long purchasePrice;
