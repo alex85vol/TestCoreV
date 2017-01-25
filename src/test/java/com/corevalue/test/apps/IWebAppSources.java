@@ -13,11 +13,6 @@ public interface IWebAppSources {
 
     long getExplicitTimeOut();
 
-    String getLanguage();
-
-
-    String getLoggerstrategy();
-
     String getMainPageUrl();
 
 }

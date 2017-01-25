@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 /**
  * Created by ovo on 24.01.2017.
  */
-public abstract class MainPage {
+public  class MainPage {
 
     public static enum ChangeLanguageFields {
         FRENCH("EN"),
@@ -25,8 +25,8 @@ public abstract class MainPage {
         }
     }
 
-        //Fields
-        protected WebDriver driver;
+    //Fields
+    protected WebDriver driver;
 
     protected MainPage(WebDriver driver) {
         this.driver = driver;

@@ -32,7 +32,7 @@ public class CalculatorPage extends MainPage {
         this.purchasePriceIncreaseButton = driver
                 .findElement(By.xpath("//button[@class='PrixProprietePlus']"));
         this.downPaymentIncreaseButton = driver.findElement(By.xpath("//button[@id='MiseDeFondPlus']"));
-        this.downPaymentField =driver.findElement(By.xpath("//input[@id='MiseDeFond']"));
+        this.downPaymentField = driver.findElement(By.xpath("//input[@id='MiseDeFond']"));
 
 
     }

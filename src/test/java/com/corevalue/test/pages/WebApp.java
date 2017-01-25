@@ -47,11 +47,12 @@ public class WebApp {
 
             return browser.getBrowser(webApp);
         }
+
         @Override
         public String toString() {
             return browserName;
         }
-        }
+    }
 
     private WebApp(WebAppSources webAppSources) {
         this.webAppSources = webAppSources;
@@ -82,15 +83,15 @@ public class WebApp {
         }
         instance = null;
     }
-     public void init() {
-         initWebDriver();
-     }
 
-    /*public MainPage load() {
+    public void init() {
+        initWebDriver();
+    }
+
+    public MainPage load() {
         driver.get(webAppSources.getMainPageUrl());
         return new MainPage(driver);
-    }*/
-
+    }
 
 
     public void quit() {
