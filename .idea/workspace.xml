@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac2d73c-9db5-40aa-b8f4-1989629737c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebToolPage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/tests/NavigationTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MortgagePage.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MortgagePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebApp.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebApp.java" />
     </list>
     <ignored path="TestCoreV.iws" />
     <ignored path=".idea/workspace.xml" />
