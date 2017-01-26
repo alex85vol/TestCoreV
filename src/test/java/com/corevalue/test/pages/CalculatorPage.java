@@ -50,9 +50,9 @@ public class CalculatorPage extends WebToolPage {
 
 
     //region Webelements field
-    @FindBy(xpath = "(//div[@class='slider-selection tick-slider-selection'])[1]")
+    //@FindBy(xpath = "(//div[@class='slider-selection tick-slider-selection'])[1]")
     //@FindBy(xpath = "(//div[@class='slider-tick custom in-selection'])[1]")
-    //@FindBy(xpath = "//div[@class='slider-handle min-slider-handle custom'])[1]")
+    @FindBy(xpath = "//div[@class='slider-handle min-slider-handle custom'])[1]")
     private WebElement purchasePriceSlider;
     @FindBy(xpath = "//input[@id='PrixPropriete']")
     private WebElement purchasePriceField;
@@ -138,6 +138,7 @@ public class CalculatorPage extends WebToolPage {
     //endregion
 
     public void moveSlider() {
+        waitAndClick(getPurchasePriceSlider(), 5);
         Actions slider = new Actions(driver);
         Action moveSlider = slider.clickAndHold(getPurchasePriceSlider())
                 .moveToElement(getPurchasePriceIncreaseButton()).release(getPurchasePriceIncreaseButton()).build();

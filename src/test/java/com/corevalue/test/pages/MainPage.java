@@ -15,7 +15,8 @@ public class MainPage extends WebToolPage {
     //region Webelements
     @FindBy(xpath = "//i[@class='icone-home']")
     private WebElement logo;
-    @FindBy(xpath ="//i[@class='icone-menu-prets']" )
+    @FindBy(xpath = "//a[@href='/individuals/pret']")
+    //@FindBy(xpath ="//i[@class='icone-menu-prets']" )
     private WebElement loans;
     @FindBy(xpath = "//a[@data-utag-name='mortgage_loan']")
     private WebElement mortgage;
@@ -43,7 +44,7 @@ public class MainPage extends WebToolPage {
 
     //region MainPage Methods
     public void checkPage() {
-        sleepForLoad(10);
+        waitForElementIsVisible(getLoans(), 10);
         Assert.assertTrue(getLogo().isDisplayed(), "Page isn't successfully loaded");
     }
 
