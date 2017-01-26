@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ac2d73c-9db5-40aa-b8f4-1989629737c5" name="Default" comment="refactored calculator class">
+    <list default="true" id="2ac2d73c-9db5-40aa-b8f4-1989629737c5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/data/User.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/data/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/CalculatorPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/CalculatorPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/MainPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/MainPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/MortgagePage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/MortgagePage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/WebApp$Browsers.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/WebApp$Browsers.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/WebApp$ChromeTemporary.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/WebApp$ChromeTemporary.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/WebApp.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/WebApp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/WebToolPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/WebToolPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/tests/NavigationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/tests/NavigationTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/data/User.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/data/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MortgagePage.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MortgagePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebApp.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebToolPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebToolPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/tests/NavigationTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/tests/NavigationTest.java" />
     </list>
     <ignored path="TestCoreV.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -950,7 +952,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485417715270</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="refactored calculator class">
+      <created>1485451962177</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1485451962177</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -986,7 +995,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="-4" width="1866" height="1088" extended-state="6" />
+    <frame x="58" y="-4" width="1866" height="1088" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1078,7 +1087,8 @@
     <MESSAGE value="refactored code" />
     <MESSAGE value="refactored code 2" />
     <MESSAGE value="refactored code 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored code 3" />
+    <MESSAGE value="refactored calculator class" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored calculator class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
