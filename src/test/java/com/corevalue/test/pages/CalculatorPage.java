@@ -6,6 +6,7 @@ import com.corevalue.test.data.UserRepository;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
@@ -49,7 +50,9 @@ public class CalculatorPage extends WebToolPage {
 
 
     //region Webelements field
-    @FindBy(xpath = "//div[@class='slider-handle min-slider-handle custom'])[1]")
+    @FindBy(xpath = "(//div[@class='slider-selection tick-slider-selection'])[1]")
+    //@FindBy(xpath = "(//div[@class='slider-tick custom in-selection'])[1]")
+    //@FindBy(xpath = "//div[@class='slider-handle min-slider-handle custom'])[1]")
     private WebElement purchasePriceSlider;
     @FindBy(xpath = "//input[@id='PrixPropriete']")
     private WebElement purchasePriceField;
@@ -136,8 +139,8 @@ public class CalculatorPage extends WebToolPage {
 
     public void moveSlider() {
         Actions slider = new Actions(driver);
-        slider.clickAndHold(getPurchasePriceSlider())
-                .moveToElement(getPurchasePriceIncreaseButton()).build();
+        Action moveSlider = slider.clickAndHold(getPurchasePriceSlider())
+                .moveToElement(getPurchasePriceIncreaseButton()).release(getPurchasePriceIncreaseButton()).build();
         Assert.assertTrue(getPurchasePriceField().getText().equals(getPurchaseTooltip().getText()));
     }
 

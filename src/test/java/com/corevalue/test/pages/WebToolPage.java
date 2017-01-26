@@ -92,7 +92,13 @@ public abstract class WebToolPage {
         return element;
     }
 
-
+    protected void sleepForLoad(int aWhile) {
+        try {
+            Thread.sleep(aWhile);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
 
 }
 

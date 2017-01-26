@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac2d73c-9db5-40aa-b8f4-1989629737c5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/CalculatorPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/CalculatorPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebToolPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebToolPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/tests/NavigationTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/tests/NavigationTest.java" />
     </list>
     <ignored path="TestCoreV.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +32,8 @@
       <file leaf-file-name="NavigationTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/tests/NavigationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+            <state relative-caret-position="458">
+              <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="476">
+              <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="n#!!doc;n#getLogo#0;n#MainPage#0" expanded="false" />
@@ -61,52 +66,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatorPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CalculatorPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="730">
-              <caret line="149" column="71" selection-start-line="149" selection-start-column="71" selection-end-line="149" selection-end-column="71" />
+            <state relative-caret-position="67">
+              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="n#!!doc;n#user#0;n#CalculatorPage#0" expanded="false" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-                <element signature="e#965#966#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="n#!!doc;n#purchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
-                <element signature="e#2612#2613#0" expanded="true" />
-                <element signature="e#2641#2642#0" expanded="true" />
                 <element signature="n#!!doc;n#getPurchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
-                <element signature="e#2724#2725#0" expanded="true" />
-                <element signature="e#2771#2772#0" expanded="true" />
-                <element signature="e#2820#2821#0" expanded="true" />
-                <element signature="e#2866#2867#0" expanded="true" />
-                <element signature="e#2912#2913#0" expanded="true" />
-                <element signature="e#2950#2951#0" expanded="true" />
-                <element signature="e#3008#3009#0" expanded="true" />
-                <element signature="e#3058#3059#0" expanded="true" />
-                <element signature="e#3116#3117#0" expanded="true" />
-                <element signature="e#3171#3172#0" expanded="true" />
-                <element signature="e#3228#3229#0" expanded="true" />
-                <element signature="e#3281#3282#0" expanded="true" />
-                <element signature="e#3328#3329#0" expanded="true" />
-                <element signature="e#3372#3373#0" expanded="true" />
-                <element signature="e#3428#3429#0" expanded="true" />
-                <element signature="e#3475#3476#0" expanded="true" />
-                <element signature="e#3528#3529#0" expanded="true" />
-                <element signature="e#3573#3574#0" expanded="true" />
-                <element signature="e#3624#3625#0" expanded="true" />
-                <element signature="e#3672#3673#0" expanded="true" />
-                <element signature="e#3720#3721#0" expanded="true" />
-                <element signature="e#3765#3766#0" expanded="true" />
-                <element signature="e#3811#3812#0" expanded="true" />
-                <element signature="e#3854#3855#0" expanded="true" />
-                <element signature="e#4222#4223#0" expanded="true" />
-                <element signature="e#4269#4270#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,6 +92,18 @@
                 <element signature="method#get#1;class#WebApp#0" expanded="false" />
                 <element signature="n#!!doc;n#remove#0;n#WebApp#0" expanded="false" />
                 <element signature="method#initWebDriver#0;class#WebApp#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebToolPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebToolPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1496">
+              <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,13 +138,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/data/UserRepository.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebToolPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/data/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebApp.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MortgagePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebToolPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/tests/NavigationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java" />
       </list>
     </option>
   </component>
@@ -185,9 +164,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
+    <option name="x" value="1916" />
     <option name="y" value="-4" />
-    <option name="width" value="1866" />
+    <option name="width" value="1928" />
     <option name="height" value="1088" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -215,9 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -420,6 +396,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -851,6 +830,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2ac2d73c-9db5-40aa-b8f4-1989629737c5" name="Default" comment="" />
@@ -954,39 +936,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NavigationTest - 2017.01.26 at 17h 00m 17s.xml">
-      <configuration name="NavigationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NavigationTest - 2017.01.26 at 17h 06m 56s.xml">
-      <configuration name="NavigationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NavigationTest - 2017.01.26 at 17h 07m 45s.xml">
-      <configuration name="NavigationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NavigationTest - 2017.01.26 at 19h 08m 40s.xml">
-      <configuration name="NavigationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NavigationTest - 2017.01.26 at 19h 10m 32s.xml">
-      <configuration name="NavigationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NavigationTest - 2017.01.26 at 19h 11m 44s.xml">
-      <configuration name="NavigationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NavigationTest - 2017.01.26 at 19h 14m 40s.xml">
-      <configuration name="NavigationTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NavigationTest - 2017.01.26 at 19h 17m 43s.xml">
-      <configuration name="NavigationTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="NavigationTest - 2017.01.26 at 19h 21m 34s.xml">
       <configuration name="NavigationTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="NavigationTest - 2017.01.26 at 19h 30m 59s.xml">
       <configuration name="NavigationTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="NavigationTest - 2017.01.26 at 20h 14m 56s.xml">
+      <configuration name="NavigationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationTest - 2017.01.26 at 20h 16m 20s.xml">
+      <configuration name="NavigationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationTest - 2017.01.26 at 20h 17m 28s.xml">
+      <configuration name="NavigationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationTest - 2017.01.26 at 20h 20m 27s.xml">
+      <configuration name="NavigationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationTest - 2017.01.26 at 20h 23m 35s.xml">
+      <configuration name="NavigationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationTest - 2017.01.26 at 20h 29m 49s.xml">
+      <configuration name="NavigationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationTest - 2017.01.26 at 20h 32m 47s.xml">
+      <configuration name="NavigationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NavigationTest - 2017.01.26 at 20h 35m 59s.xml">
+      <configuration name="NavigationTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="-4" width="1866" height="1088" extended-state="6" />
+    <frame x="1916" y="-4" width="1928" height="1088" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1001,8 +983,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24889868" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24068157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1013,6 +994,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1092,6 +1074,64 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/tests/NavigationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MortgagePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#getLogo#0;n#MainPage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="51" column="73" selection-start-line="51" selection-start-column="73" selection-end-line="51" selection-end-column="73" />
+          <folding>
+            <element signature="n#!!doc;n#user#0;n#CalculatorPage#0" expanded="false" />
+            <element signature="n#!!doc;n#getPurchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#instance#0;n#WebApp#0" expanded="false" />
+            <element signature="class#ChromeTemporary#0;class#WebApp#0" expanded="false" />
+            <element signature="class#Browsers#0;class#WebApp#0" expanded="false" />
+            <element signature="method#get#1;class#WebApp#0" expanded="false" />
+            <element signature="n#!!doc;n#remove#0;n#WebApp#0" expanded="false" />
+            <element signature="method#initWebDriver#0;class#WebApp#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
@@ -1104,7 +1144,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1205,46 +1244,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="n#!!doc;n#user#0;n#CalculatorPage#0" expanded="false" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="n#!!doc;n#purchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
-            <element signature="e#2612#2613#0" expanded="true" />
-            <element signature="e#2641#2642#0" expanded="true" />
             <element signature="n#!!doc;n#getPurchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
-            <element signature="e#2724#2725#0" expanded="true" />
-            <element signature="e#2771#2772#0" expanded="true" />
-            <element signature="e#2820#2821#0" expanded="true" />
-            <element signature="e#2866#2867#0" expanded="true" />
-            <element signature="e#2912#2913#0" expanded="true" />
-            <element signature="e#2950#2951#0" expanded="true" />
-            <element signature="e#3008#3009#0" expanded="true" />
-            <element signature="e#3058#3059#0" expanded="true" />
-            <element signature="e#3116#3117#0" expanded="true" />
-            <element signature="e#3171#3172#0" expanded="true" />
-            <element signature="e#3228#3229#0" expanded="true" />
-            <element signature="e#3281#3282#0" expanded="true" />
-            <element signature="e#3328#3329#0" expanded="true" />
-            <element signature="e#3372#3373#0" expanded="true" />
-            <element signature="e#3428#3429#0" expanded="true" />
-            <element signature="e#3475#3476#0" expanded="true" />
-            <element signature="e#3528#3529#0" expanded="true" />
-            <element signature="e#3573#3574#0" expanded="true" />
-            <element signature="e#3624#3625#0" expanded="true" />
-            <element signature="e#3672#3673#0" expanded="true" />
-            <element signature="e#3720#3721#0" expanded="true" />
-            <element signature="e#3765#3766#0" expanded="true" />
-            <element signature="e#3811#3812#0" expanded="true" />
-            <element signature="e#3854#3855#0" expanded="true" />
-            <element signature="e#4222#4223#0" expanded="true" />
-            <element signature="e#4269#4270#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1284,7 +1285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1314,46 +1314,8 @@
         <state relative-caret-position="323">
           <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="n#!!doc;n#user#0;n#CalculatorPage#0" expanded="false" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="n#!!doc;n#purchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
-            <element signature="e#2612#2613#0" expanded="true" />
-            <element signature="e#2641#2642#0" expanded="true" />
             <element signature="n#!!doc;n#getPurchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
-            <element signature="e#2724#2725#0" expanded="true" />
-            <element signature="e#2771#2772#0" expanded="true" />
-            <element signature="e#2820#2821#0" expanded="true" />
-            <element signature="e#2866#2867#0" expanded="true" />
-            <element signature="e#2912#2913#0" expanded="true" />
-            <element signature="e#2950#2951#0" expanded="true" />
-            <element signature="e#3008#3009#0" expanded="true" />
-            <element signature="e#3058#3059#0" expanded="true" />
-            <element signature="e#3116#3117#0" expanded="true" />
-            <element signature="e#3171#3172#0" expanded="true" />
-            <element signature="e#3228#3229#0" expanded="true" />
-            <element signature="e#3281#3282#0" expanded="true" />
-            <element signature="e#3328#3329#0" expanded="true" />
-            <element signature="e#3372#3373#0" expanded="true" />
-            <element signature="e#3428#3429#0" expanded="true" />
-            <element signature="e#3475#3476#0" expanded="true" />
-            <element signature="e#3528#3529#0" expanded="true" />
-            <element signature="e#3573#3574#0" expanded="true" />
-            <element signature="e#3624#3625#0" expanded="true" />
-            <element signature="e#3672#3673#0" expanded="true" />
-            <element signature="e#3720#3721#0" expanded="true" />
-            <element signature="e#3765#3766#0" expanded="true" />
-            <element signature="e#3811#3812#0" expanded="true" />
-            <element signature="e#3854#3855#0" expanded="true" />
-            <element signature="e#4222#4223#0" expanded="true" />
-            <element signature="e#4269#4270#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1436,7 +1398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1408">
           <caret line="406" column="40" selection-start-line="406" selection-start-column="40" selection-end-line="406" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1483,13 +1444,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebToolPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/apps/IWebAppSources.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1509,19 +1475,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/apps/IWebAppSources.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebToolPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="1496">
+          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="476">
+          <caret line="45" column="23" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#getLogo#0;n#MainPage#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1537,8 +1508,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/tests/NavigationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+        <state relative-caret-position="458">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1547,60 +1518,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="149" column="71" selection-start-line="149" selection-start-column="71" selection-end-line="149" selection-end-column="71" />
+        <state relative-caret-position="67">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="n#!!doc;n#user#0;n#CalculatorPage#0" expanded="false" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#965#966#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="n#!!doc;n#purchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
-            <element signature="e#2612#2613#0" expanded="true" />
-            <element signature="e#2641#2642#0" expanded="true" />
             <element signature="n#!!doc;n#getPurchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
-            <element signature="e#2724#2725#0" expanded="true" />
-            <element signature="e#2771#2772#0" expanded="true" />
-            <element signature="e#2820#2821#0" expanded="true" />
-            <element signature="e#2866#2867#0" expanded="true" />
-            <element signature="e#2912#2913#0" expanded="true" />
-            <element signature="e#2950#2951#0" expanded="true" />
-            <element signature="e#3008#3009#0" expanded="true" />
-            <element signature="e#3058#3059#0" expanded="true" />
-            <element signature="e#3116#3117#0" expanded="true" />
-            <element signature="e#3171#3172#0" expanded="true" />
-            <element signature="e#3228#3229#0" expanded="true" />
-            <element signature="e#3281#3282#0" expanded="true" />
-            <element signature="e#3328#3329#0" expanded="true" />
-            <element signature="e#3372#3373#0" expanded="true" />
-            <element signature="e#3428#3429#0" expanded="true" />
-            <element signature="e#3475#3476#0" expanded="true" />
-            <element signature="e#3528#3529#0" expanded="true" />
-            <element signature="e#3573#3574#0" expanded="true" />
-            <element signature="e#3624#3625#0" expanded="true" />
-            <element signature="e#3672#3673#0" expanded="true" />
-            <element signature="e#3720#3721#0" expanded="true" />
-            <element signature="e#3765#3766#0" expanded="true" />
-            <element signature="e#3811#3812#0" expanded="true" />
-            <element signature="e#3854#3855#0" expanded="true" />
-            <element signature="e#4222#4223#0" expanded="true" />
-            <element signature="e#4269#4270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#getLogo#0;n#MainPage#0" expanded="false" />
           </folding>
         </state>
       </provider>

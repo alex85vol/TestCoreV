@@ -43,6 +43,7 @@ public class MainPage extends WebToolPage {
 
     //region MainPage Methods
     public void checkPage() {
+        sleepForLoad(10);
         Assert.assertTrue(getLogo().isDisplayed(), "Page isn't successfully loaded");
     }
 
