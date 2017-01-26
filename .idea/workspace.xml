@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2ac2d73c-9db5-40aa-b8f4-1989629737c5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java" />
     </list>
     <ignored path="TestCoreV.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -185,7 +184,7 @@
             <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="530">
-                  <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+                  <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -992,7 +991,14 @@
       <option name="project" value="LOCAL" />
       <updated>1485363929427</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refactored code 3">
+      <created>1485417677956</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1485417677956</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1119,7 +1125,8 @@
     <MESSAGE value="addde data for User" />
     <MESSAGE value="refactored code" />
     <MESSAGE value="refactored code 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored code 2" />
+    <MESSAGE value="refactored code 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored code 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1403,7 +1410,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="530">
-          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
