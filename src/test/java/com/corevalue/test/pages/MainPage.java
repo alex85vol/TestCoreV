@@ -10,7 +10,7 @@ import org.testng.Assert;
  */
 public class MainPage extends WebToolPage {
 
-
+///
 
     //region Webelements
     @FindBy(xpath = "//i[@class='icone-home']")
