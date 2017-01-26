@@ -35,6 +35,6 @@ public class CalculatorPage extends MainPage  {
     public CalculatorPage(WebDriver driver) {super(driver);}
 
     public WebElement getPurchasePriceField(){return this.purchasePriceField;}
-    public WebElement
+
 }
 
