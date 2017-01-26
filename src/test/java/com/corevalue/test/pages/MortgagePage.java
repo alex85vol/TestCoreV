@@ -14,16 +14,14 @@ public class MortgagePage extends WebToolPage {
 
     public MortgagePage(WebDriver driver) {super(driver);}
 
-    protected void waitUntilLoaded() {
 
-    }
 
     public WebElement getCalculatePayments() {
         return this.calculatePayments;
     }
 
-    public CalculatorPage gotoCalculator(WebDriver driver) {
-        getCalculatePayments().click();
+    public CalculatorPage gotoCalculator() {
+        waitAndClick(getCalculatePayments());
         return new CalculatorPage(driver);
     }
 }

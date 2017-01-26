@@ -11,19 +11,21 @@ import org.testng.Assert;
 public class MainPage extends WebToolPage {
 
 
-    //Fields
+
+    //region Webelements
     @FindBy(xpath = "//i[@class='icone-home']")
     private WebElement logo;
     @FindBy(xpath ="//i[@class='icone-menu-prets']" )
     private WebElement loans;
     @FindBy(xpath = "//a[@data-utag-name='mortgage_loan']")
     private WebElement mortgage;
+    //endregion
 
 
     public MainPage(WebDriver driver) { super(driver);}
 
-    protected void waitUntilLoaded() {}
 
+    //region Webelements Getters
     public WebElement getLogo() {
         return this.logo;
     }
@@ -36,8 +38,10 @@ public class MainPage extends WebToolPage {
         waitForElementIsVisible(mortgage,5);
         return this.mortgage;
     }
+    //endregion
 
 
+    //region MainPage Methods
     public void checkPage() {
         Assert.assertTrue(getLogo().isDisplayed(), "Page isn't successfully loaded");
     }
@@ -47,6 +51,7 @@ public class MainPage extends WebToolPage {
        getMortgage().click();
        return new MortgagePage(driver);
     }
+    //endregion
 
 }
 

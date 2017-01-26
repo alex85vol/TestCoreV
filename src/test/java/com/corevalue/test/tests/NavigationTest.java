@@ -4,7 +4,9 @@ import com.corevalue.test.apps.WebAppSources;
 import com.corevalue.test.apps.WebAppSourcesRepository;
 import com.corevalue.test.data.IUser;
 import com.corevalue.test.data.UserRepository;
+import com.corevalue.test.pages.CalculatorPage;
 import com.corevalue.test.pages.MainPage;
+import com.corevalue.test.pages.MortgagePage;
 import com.corevalue.test.pages.WebApp;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.DataProvider;
@@ -32,7 +34,14 @@ public class NavigationTest {
     public void checkNavigation(WebAppSources webAppSources, IUser user) throws Exception{
         MainPage mainPage = WebApp.get(webAppSources).load();
         mainPage.checkPage();
-        mainPage.gotoMortgagePage();
+        MortgagePage mortgagePage = mainPage.gotoMortgagePage();
+        CalculatorPage calculatorPage = mortgagePage.gotoCalculator();
+        calculatorPage.moveSlider();
+        Thread.sleep(5000);
+        calculatorPage.clearPurchasePrice();
+        Thread.sleep(5000);
+        calculatorPage.setAmortization();
+
         Thread.sleep(5000);
     }
 

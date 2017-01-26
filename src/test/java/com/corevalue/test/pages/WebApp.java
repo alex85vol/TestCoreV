@@ -12,16 +12,18 @@ import java.util.concurrent.TimeUnit;
  */
 public class WebApp {
 
-    //Fields
+
+    //region Field
     private static volatile WebApp instance;
     private WebDriver driver;
     private WebAppSources webAppSources;
+    //endregion
 
 
     private interface IBrowser {
         WebDriver getBrowser(WebApp webApp);
     }
-
+    //Method for temporary Chrome profile
     private static class ChromeTemporary implements IBrowser {
         public WebDriver getBrowser(WebApp webApp) {
             System.setProperty("webdriver.chrome.driver",
@@ -30,6 +32,7 @@ public class WebApp {
         }
     }
 
+    //Module for managing browsers
     public static enum Browsers {
         DEFAULT_TEMPORARY("ChromeTemporary", new ChromeTemporary()),
         CHROME_TEMPORARY("ChromeTemporary", new ChromeTemporary());
@@ -62,6 +65,7 @@ public class WebApp {
         return get(null);
     }
 
+    //WebApp instance
     public static WebApp get(WebAppSources webAppSources) {
         if (instance == null) {
             synchronized (WebApp.class) {
@@ -77,6 +81,7 @@ public class WebApp {
         return instance;
     }
 
+    //region WebDriver main methods
     public static void remove() {
         if (instance != null) {
             instance.quit();
@@ -99,11 +104,13 @@ public class WebApp {
             driver.quit();
         }
     }
+    //endregion
 
     public WebDriver getWebDriver() {
         return driver;
     }
 
+    //Singletone for WebDriver
     private void initWebDriver() {
         Browsers currentBrowser = Browsers.DEFAULT_TEMPORARY;
         for (Browsers browser : Browsers.values()) {

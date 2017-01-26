@@ -1,5 +1,6 @@
 package com.corevalue.test.data;
 
+//region Intefaces
 interface IPurchasePrice {
     IDownPayment setPurchasePrice(long purchasePrice);
 }
@@ -27,16 +28,19 @@ interface ICalculatedPayments {
 interface IBuild {
     User build();
 }
+//endregion
 
 public class User implements IPurchasePrice, IDownPayment, IAmortization,
         IPaymentFrequency, IInterestRate, ICalculatedPayments, IBuild, IUser{
 
+    //region User Data field
     private long purchasePrice;
     private long downPayment;
     private long amortization;
     private String paymentFrequency;
     private double interestRate;
     private double calculatedPayments;
+    //endregion
 
     private User(){}
 

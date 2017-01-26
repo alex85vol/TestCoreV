@@ -17,25 +17,26 @@ public abstract class WebToolPage {
     public WebToolPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
-        waitUntilLoaded();
     }
 
 
-    protected boolean isElementDisplayed(WebElement element) {
+    protected boolean elementDisplayed(WebElement element) {
         try {
             return element.isDisplayed();
         } catch (NoSuchElementException e) {
             return false;
         } catch (StaleElementReferenceException e) {
-            return isElementDisplayed(element);
+            return elementDisplayed(element);
+
         }
+
     }
 
-    protected String getValueOf(WebElement element) {
+    protected String getAtrributeValue(WebElement element) {
         return element.getAttribute("value");
     }
 
-     protected String getTextOf(WebElement element) {
+     protected String getText(WebElement element) {
         return element.getText();
     }
 
@@ -92,6 +93,6 @@ public abstract class WebToolPage {
     }
 
 
-    protected abstract void waitUntilLoaded();
+
 }
 
