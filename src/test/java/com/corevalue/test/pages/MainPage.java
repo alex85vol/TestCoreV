@@ -13,6 +13,8 @@ public class MainPage extends WebToolPage {
 ///
 
     //region Webelements
+    @FindBy(xpath = "//a[@id='topLangMenuItem']")
+    private WebElement languageIcon;
     @FindBy(xpath = "//i[@class='icone-home']")
     private WebElement logo;
     @FindBy(xpath = "//a[@href='/individuals/pret']")
@@ -23,10 +25,17 @@ public class MainPage extends WebToolPage {
     //endregion
 
 
-    public MainPage(WebDriver driver) { super(driver);}
+    public MainPage(WebDriver driver) {
+        super(driver);
+    }
 
 
     //region Webelements Getters
+
+    public WebElement getLanguageIcon() {
+        return languageIcon;
+    }
+
     public WebElement getLogo() {
         return this.logo;
     }
@@ -36,7 +45,7 @@ public class MainPage extends WebToolPage {
     }
 
     public WebElement getMortgage() {
-        waitForElementIsVisible(mortgage,5);
+        waitForElementIsVisible(mortgage, 5);
         return this.mortgage;
     }
     //endregion
@@ -44,14 +53,21 @@ public class MainPage extends WebToolPage {
 
     //region MainPage Methods
     public void checkPage() {
-        waitForElementIsVisible(getLoans(), 10);
+        String language = "EN";
+        String url = "http://ia.ca/individuals";
+        waitForElementIsVisible(getLanguageIcon(), 5);
+        if (!getUrl().equals(url)&&getText(getLanguageIcon()).equals(language)){
+            clickOn(getLanguageIcon());
+        }
+
+        waitForElementIsVisible(getLoans(), 5);
         Assert.assertTrue(getLogo().isDisplayed(), "Page isn't successfully loaded");
     }
 
     public MortgagePage gotoMortgagePage() {
-       getLoans().click();
-       getMortgage().click();
-       return new MortgagePage(driver);
+        getLoans().click();
+        getMortgage().click();
+        return new MortgagePage(driver);
     }
     //endregion
 

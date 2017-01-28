@@ -32,6 +32,9 @@ public abstract class WebToolPage {
 
     }
 
+    protected  String getUrl() {
+        return this.driver.getCurrentUrl();}
+
     protected String getAtrributeValue(WebElement element) {
         return element.getAttribute("value");
     }

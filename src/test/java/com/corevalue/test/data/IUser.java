@@ -7,7 +7,7 @@ public interface IUser {
 
     long getPurchasePrice();
     long getDownPayment();
-    long getAmortization();
+    int getAmortization();
     String getPaymentFrequency();
     double getInterestRate();
     double getCalculatedPayments();

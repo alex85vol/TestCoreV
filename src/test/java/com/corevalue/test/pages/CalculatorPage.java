@@ -11,6 +11,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Created by ovo on 24.01.2017.
  */
@@ -27,7 +30,7 @@ public class CalculatorPage extends WebToolPage {
         return user.getDownPayment();
     }
 
-    private static long userAmortization(IUser user) {
+    private static int userAmortization(IUser user) {
         return user.getAmortization();
     }
 
@@ -46,7 +49,7 @@ public class CalculatorPage extends WebToolPage {
     //endregion
 
     private String userSetAmortization = "//select[@id='Amortissement']/option[@value='"
-            + Long.toString(userAmortization((IUser) user)) + "']";
+            + Integer.toString(userAmortization((IUser) user)) + "']";
 
 
     //region Webelements field
@@ -145,7 +148,22 @@ public class CalculatorPage extends WebToolPage {
         Assert.assertTrue(getPurchasePriceField().getText().equals(getPurchaseTooltip().getText()));
     }
 
-    public void clearPurchasePrice(){
+    public void setPurchasePrice() {
+        Map<Long, Integer> price = new HashMap<Long, Integer>();
+        price.put((long) 250000, 1);
+        price.put((long) 500000, 2);
+        price.put((long) 750000, 3);
+        price.put((long) 1000000, 4);
+
+
+        for (int x = price.get(userPurchasePrice((IUser) user)); x > 0; x--) {
+            waitAndClick(getPurchasePriceIncreaseButton(), 5);
+        }
+
+
+    }
+
+    public void clearPurchasePrice() {
         getPurchasePriceField().clear();
     }
 

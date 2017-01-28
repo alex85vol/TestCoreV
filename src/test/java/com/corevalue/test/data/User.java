@@ -10,7 +10,7 @@ interface  IDownPayment {
 }
 
 interface IAmortization {
-    IPaymentFrequency setAmortization(long amortization);
+    IPaymentFrequency setAmortization(int amortization);
 }
 
 interface IPaymentFrequency {
@@ -36,7 +36,7 @@ public class User implements IPurchasePrice, IDownPayment, IAmortization,
     //region User Data field
     private long purchasePrice;
     private long downPayment;
-    private long amortization;
+    private int amortization;
     private String paymentFrequency;
     private double interestRate;
     private double calculatedPayments;
@@ -58,7 +58,7 @@ public class User implements IPurchasePrice, IDownPayment, IAmortization,
         return this;
     }
 
-    public IPaymentFrequency setAmortization(long amortization) {
+    public IPaymentFrequency setAmortization(int amortization) {
         this.amortization = amortization;
         return this;
     }
@@ -93,7 +93,7 @@ public class User implements IPurchasePrice, IDownPayment, IAmortization,
         return downPayment;
     }
 
-    public long getAmortization() {
+    public int getAmortization() {
         return amortization;
     }
 

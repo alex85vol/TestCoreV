@@ -36,10 +36,7 @@ public class NavigationTest {
         mainPage.checkPage();
         MortgagePage mortgagePage = mainPage.gotoMortgagePage();
         CalculatorPage calculatorPage = mortgagePage.gotoCalculator();
-        calculatorPage.moveSlider();
-        Thread.sleep(5000);
-        //calculatorPage.clearPurchasePrice();
-        //Thread.sleep(5000);
+        calculatorPage.setPurchasePrice();
         calculatorPage.setAmortization();
 
         Thread.sleep(5000);
