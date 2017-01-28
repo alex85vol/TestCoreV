@@ -167,8 +167,26 @@ public class CalculatorPage extends WebToolPage {
         getPurchasePriceField().clear();
     }
 
-    public void setAmortization() {
-        getAmortizationDropdown().click();
+    public void setPaymentFrerquency() {
+        Map<String, Integer> paymentFrequency = new HashMap<String,Integer>();
+        paymentFrequency.put("Monthly", 12);
+        paymentFrequency.put("Biweekly", 26);
+        paymentFrequency.put("Biweekly +", 24);
+        paymentFrequency.put("Weekly", 52);
+        paymentFrequency.put("Weekly +", 48);
+
+        String userPaymentFrequency = "//select[@id='FrequenceVersement']/option[@value='"
+                + Integer.toString(paymentFrequency.get(userPaymentFrequency((IUser) user))) + "']";
+        WebElement setUserPaymentFrequency = driver.findElement(By.xpath(userPaymentFrequency));
+        waitAndClick(setUserPaymentFrequency, 5);
+
+
+
+
+    }
+
+    public void setUserSetAmortization(){
+        waitAndClick(getAmortizationDropdown());
         waitAndClick(driver.findElement(By.xpath(userSetAmortization)));
     }
 

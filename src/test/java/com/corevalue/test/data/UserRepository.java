@@ -12,7 +12,7 @@ public final class UserRepository {
                 .setPurchasePrice(500000)
                 .setDownPayment(50000)
                 .setAmortization(15)
-                .setPaymentFrequency("weekly")
+                .setPaymentFrequency("Weekly")
                 .setInterestRate(5.00)
                 .setCalculatedPayments(836.75)
                 .build();

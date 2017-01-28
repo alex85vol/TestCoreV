@@ -56,7 +56,7 @@ public class MainPage extends WebToolPage {
         String language = "EN";
         String url = "http://ia.ca/individuals";
         waitForElementIsVisible(getLanguageIcon(), 5);
-        if (!getUrl().equals(url)&&getText(getLanguageIcon()).equals(language)){
+        if (!getUrl().equals(url)&&!getText(getLanguageIcon()).equals(language)){
             clickOn(getLanguageIcon());
         }
 

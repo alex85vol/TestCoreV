@@ -2,18 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ac2d73c-9db5-40aa-b8f4-1989629737c5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/chromedriver.exe" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/apps/WebAppSourcesRepository.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/apps/WebAppSourcesRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/data/UserRepository.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/data/UserRepository.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/tests/NavigationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/tests/NavigationTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/data/IAmortization.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/data/IAmortization.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/data/IUser.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/data/IUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/data/User.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/data/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/CalculatorPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/CalculatorPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/MainPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/MainPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/WebToolPage.class" afterPath="$PROJECT_DIR$/target/test-classes/com/corevalue/test/pages/WebToolPage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestCoreV.iml" afterPath="$PROJECT_DIR$/TestCoreV.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/data/IUser.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/data/IUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/data/User.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/data/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/data/UserRepository.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/data/UserRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebToolPage.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebToolPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/corevalue/test/tests/NavigationTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/corevalue/test/tests/NavigationTest.java" />
     </list>
     <ignored path="TestCoreV.iws" />
@@ -41,20 +39,10 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/tests/NavigationTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebAppSourcesRepository.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/apps/WebAppSourcesRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7179054">
-              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -75,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#751#752#0" expanded="true" />
@@ -105,16 +93,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/data/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/data/User.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,18 +111,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatorPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CalculatorPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="159" column="60" selection-start-line="159" selection-start-column="60" selection-end-line="159" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.8327703">
+              <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="n#!!doc;n#user#0;n#CalculatorPage#0" expanded="false" />
-                <element signature="n#!!doc;n#purchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
                 <element signature="n#!!doc;n#getPurchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
                 <element signature="e#4644#4659#0" expanded="true" />
+                <element signature="e#5162#5178#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/data/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,18 +142,6 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebToolPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebToolPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -195,18 +170,18 @@
         <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatoPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/apps/WebAppSources.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/apps/IWebAppSources.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/data/UserRepository.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebApp.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MortgagePage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebToolPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/data/IUser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/tests/NavigationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/data/User.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/apps/WebAppSourcesRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/data/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java" />
       </list>
     </option>
   </component>
@@ -848,7 +823,13 @@
       <option name="project" value="LOCAL" />
       <updated>1485622581062</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="new code">
+      <created>1485629554007</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1485629554007</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -971,7 +952,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dfdf" />
     <MESSAGE value="new changes" />
-    <MESSAGE value="new code" />
     <MESSAGE value="new code2" />
     <MESSAGE value="addde data for User" />
     <MESSAGE value="refactored code" />
@@ -979,7 +959,8 @@
     <MESSAGE value="refactored code 3" />
     <MESSAGE value="refactored calculator class" />
     <MESSAGE value="changed pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed pom.xml" />
+    <MESSAGE value="new code" />
+    <option name="LAST_COMMIT_MESSAGE" value="new code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1023,10 +1004,9 @@
           <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#user#0;n#CalculatorPage#0" expanded="false" />
-            <element signature="n#!!doc;n#purchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
             <element signature="n#!!doc;n#getPurchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
             <element signature="e#4644#4659#0" expanded="true" />
+            <element signature="e#5162#5178#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1107,10 +1087,9 @@
           <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#user#0;n#CalculatorPage#0" expanded="false" />
-            <element signature="n#!!doc;n#purchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
             <element signature="n#!!doc;n#getPurchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
             <element signature="e#4644#4659#0" expanded="true" />
+            <element signature="e#5162#5178#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1191,10 +1170,9 @@
           <caret line="51" column="73" selection-start-line="51" selection-start-column="73" selection-end-line="51" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#user#0;n#CalculatorPage#0" expanded="false" />
-            <element signature="n#!!doc;n#purchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
             <element signature="n#!!doc;n#getPurchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
             <element signature="e#4644#4659#0" expanded="true" />
+            <element signature="e#5162#5178#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1347,10 +1325,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#user#0;n#CalculatorPage#0" expanded="false" />
-            <element signature="n#!!doc;n#purchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
             <element signature="n#!!doc;n#getPurchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
             <element signature="e#4644#4659#0" expanded="true" />
+            <element signature="e#5162#5178#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1424,10 +1401,9 @@
           <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#user#0;n#CalculatorPage#0" expanded="false" />
-            <element signature="n#!!doc;n#purchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
             <element signature="n#!!doc;n#getPurchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
             <element signature="e#4644#4659#0" expanded="true" />
+            <element signature="e#5162#5178#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1534,52 +1510,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebToolPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MortgagePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/data/IUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="159" column="60" selection-start-line="159" selection-start-column="60" selection-end-line="159" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="n#!!doc;n#user#0;n#CalculatorPage#0" expanded="false" />
-            <element signature="n#!!doc;n#purchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
-            <element signature="n#!!doc;n#getPurchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
-            <element signature="e#4644#4659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/tests/NavigationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1617,18 +1551,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/data/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/apps/WebAppSourcesRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7179054">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/tests/NavigationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#751#752#0" expanded="true" />
@@ -1640,11 +1584,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/apps/WebAppSourcesRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/data/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7179054">
-          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/WebToolPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6891892">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/data/IUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/corevalue/test/pages/CalculatorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8327703">
+          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#getPurchasePriceSlider#0;n#CalculatorPage#0" expanded="false" />
+            <element signature="e#4644#4659#0" expanded="true" />
+            <element signature="e#5162#5178#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

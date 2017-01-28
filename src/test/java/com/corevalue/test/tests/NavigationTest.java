@@ -37,7 +37,7 @@ public class NavigationTest {
         MortgagePage mortgagePage = mainPage.gotoMortgagePage();
         CalculatorPage calculatorPage = mortgagePage.gotoCalculator();
         calculatorPage.setPurchasePrice();
-        calculatorPage.setAmortization();
+        calculatorPage.setPaymentFrerquency();
 
         Thread.sleep(5000);
     }
