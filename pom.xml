@@ -10,7 +10,7 @@
 
     <packaging>jar</packaging>
 
-    <name>atqc2016</name>
+    <name>CoreVTest</name>
 
     <properties>
         <org.testng.version>6.8</org.testng.version>
