@@ -31,15 +31,23 @@ public class NavigationTest {
 
 
     @Test(dataProvider = "standardUser")
-    public void checkNavigation(WebAppSources webAppSources, IUser user) throws Exception{
+    public void checkCalculation(WebAppSources webAppSources, IUser user) throws Exception{
         MainPage mainPage = WebApp.get(webAppSources).load();
         mainPage.checkPage();
         MortgagePage mortgagePage = mainPage.gotoMortgagePage();
         CalculatorPage calculatorPage = mortgagePage.gotoCalculator();
         calculatorPage.setPurchasePrice();
+        Thread.sleep(2000);
+        calculatorPage.setDownPayment();
+        Thread.sleep(2000);
+        calculatorPage.setUserSetAmortization();
+        Thread.sleep(2000);
         calculatorPage.setPaymentFrerquency();
-
-        Thread.sleep(5000);
+        Thread.sleep(2000);
+        calculatorPage.setInterest();
+        Thread.sleep(2000);
+        calculatorPage.provideCalculation();
+        Thread.sleep(10000);
     }
 
 

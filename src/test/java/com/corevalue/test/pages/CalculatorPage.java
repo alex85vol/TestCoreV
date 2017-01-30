@@ -57,26 +57,34 @@ public class CalculatorPage extends WebToolPage {
     //@FindBy(xpath = "(//div[@class='slider-tick custom in-selection'])[1]")
     @FindBy(xpath = "//div[@class='slider-handle min-slider-handle custom'])[1]")
     private WebElement purchasePriceSlider;
+
     @FindBy(xpath = "//input[@id='PrixPropriete']")
     private WebElement purchasePriceField;
+
     @FindBy(xpath = "//div[@class='tooltip-inner']")
     private WebElement purchaseTooltip;
-    @FindBy(xpath = "//button[@class='PrixProprietePlus']")
-    private WebElement purchasePriceDecreaseButton;
-    @FindBy(xpath = "//button[@class='PrixProprietePlus']")
+
+    @FindBy(xpath = "//button[@id='PrixProprietePlus']")
     private WebElement purchasePriceIncreaseButton;
+
     @FindBy(xpath = "//button[@id='MiseDeFondPlus']")
     private WebElement downPaymentIncreaseButton;
+
     @FindBy(xpath = "//input[@id='MiseDeFond']")
     private WebElement downPaymentField;
+
     @FindBy(xpath = "//select[@id='Amortissement']")
     private WebElement amortizationDropdown;
+
     @FindBy(xpath = "//select[@id='FrequenceVersement']")
     private WebElement paymentFrequencyDropDown;
+
     @FindBy(xpath = "//input[@id='TauxInteret']")
     private WebElement interestRateField;
+
     @FindBy(xpath = "//button[@id='btn_calculer']")
     private WebElement calculateButton;
+
     @FindBy(xpath = "//span[@id='paiement-resultats']")
     private WebElement calculationResultField;
 
@@ -101,9 +109,6 @@ public class CalculatorPage extends WebToolPage {
         return purchaseTooltip;
     }
 
-    public WebElement getPurchasePriceDecreaseButton() {
-        return purchasePriceDecreaseButton;
-    }
 
     public WebElement getPurchasePriceIncreaseButton() {
         return this.purchasePriceIncreaseButton;
@@ -159,8 +164,19 @@ public class CalculatorPage extends WebToolPage {
         for (int x = price.get(userPurchasePrice((IUser) user)); x > 0; x--) {
             waitAndClick(getPurchasePriceIncreaseButton(), 5);
         }
+    }
+
+    public void setDownPayment() {
+        Map<Long, Integer> payment = new HashMap<Long, Integer>();
+        payment.put((long) 50000, 1);
+        payment.put((long) 100000, 2);
+        payment.put((long) 150000, 3);
+        payment.put((long) 2000000, 4);
 
 
+        for (int x = payment.get(userDownPaymnet((IUser) user)); x > 0; x--) {
+            waitAndClick(getDownPaymentIncreaseButton(), 5);
+        }
     }
 
     public void clearPurchasePrice() {
@@ -168,7 +184,7 @@ public class CalculatorPage extends WebToolPage {
     }
 
     public void setPaymentFrerquency() {
-        Map<String, Integer> paymentFrequency = new HashMap<String,Integer>();
+        Map<String, Integer> paymentFrequency = new HashMap<String, Integer>();
         paymentFrequency.put("Monthly", 12);
         paymentFrequency.put("Biweekly", 26);
         paymentFrequency.put("Biweekly +", 24);
@@ -181,14 +197,22 @@ public class CalculatorPage extends WebToolPage {
         waitAndClick(setUserPaymentFrequency, 5);
 
 
-
-
     }
 
-    public void setUserSetAmortization(){
+    public void setUserSetAmortization() {
         waitAndClick(getAmortizationDropdown());
         waitAndClick(driver.findElement(By.xpath(userSetAmortization)));
     }
+
+    public void setInterest(){
+        clearAndSendKeys(getInterestRateField(), Double.toString(userInterestRate((IUser) user)));
+    }
+
+    public void provideCalculation(){
+        waitAndClick(getCalculateButton(), 5);
+    }
+
+
 
 }
 
