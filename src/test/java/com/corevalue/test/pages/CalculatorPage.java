@@ -10,6 +10,7 @@ import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
+import ru.yandex.qatools.allure.annotations.Step;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -82,6 +83,9 @@ public class CalculatorPage extends WebToolPage {
     @FindBy(xpath = "//input[@id='TauxInteret']")
     private WebElement interestRateField;
 
+    @FindBy(xpath = "//span[@class='devise pct']")
+    private WebElement precentageIcon;
+
     @FindBy(xpath = "//button[@id='btn_calculer']")
     private WebElement calculateButton;
 
@@ -140,11 +144,14 @@ public class CalculatorPage extends WebToolPage {
         return this.interestRateField;
     }
 
+    public WebElement getPrecentageIcon() {return this.precentageIcon;}
+
     public WebElement getCalculateButton() {
         return this.calculateButton;
     }
     //endregion
 
+    @Step("Moving Purchase Price Slider")
     public void moveSlider() {
         waitAndClick(getPurchasePriceSlider(), 5);
         Actions slider = new Actions(driver);
@@ -153,6 +160,7 @@ public class CalculatorPage extends WebToolPage {
         Assert.assertTrue(getPurchasePriceField().getText().equals(getPurchaseTooltip().getText()));
     }
 
+    @Step("Sets Purchase Price according to user data")
     public void setPurchasePrice() {
         Map<Long, Integer> price = new HashMap<Long, Integer>();
         price.put((long) 250000, 1);
@@ -166,6 +174,7 @@ public class CalculatorPage extends WebToolPage {
         }
     }
 
+    @Step("Sets Down Payment according to user data")
     public void setDownPayment() {
         Map<Long, Integer> payment = new HashMap<Long, Integer>();
         payment.put((long) 50000, 1);
@@ -179,10 +188,12 @@ public class CalculatorPage extends WebToolPage {
         }
     }
 
+    @Step("Clear data in Purchase Price Field")
     public void clearPurchasePrice() {
         getPurchasePriceField().clear();
     }
 
+    @Step("Sets Payment frequency according to user data")
     public void setPaymentFrerquency() {
         Map<String, Integer> paymentFrequency = new HashMap<String, Integer>();
         paymentFrequency.put("Monthly", 12);
@@ -195,19 +206,21 @@ public class CalculatorPage extends WebToolPage {
                 + Integer.toString(paymentFrequency.get(userPaymentFrequency((IUser) user))) + "']";
         WebElement setUserPaymentFrequency = driver.findElement(By.xpath(userPaymentFrequency));
         waitAndClick(setUserPaymentFrequency, 5);
-
-
     }
 
+    @Step("Sets user Amortization according to user data")
     public void setUserSetAmortization() {
         waitAndClick(getAmortizationDropdown());
         waitAndClick(driver.findElement(By.xpath(userSetAmortization)));
     }
 
+    @Step("Sets Interest Rate according to user data")
     public void setInterest(){
         clearAndSendKeys(getInterestRateField(), Double.toString(userInterestRate((IUser) user)));
+        waitAndClick(getPrecentageIcon());
     }
 
+    @Step("Clcik on claclualtion button")
     public void provideCalculation(){
         waitAndClick(getCalculateButton(), 5);
     }

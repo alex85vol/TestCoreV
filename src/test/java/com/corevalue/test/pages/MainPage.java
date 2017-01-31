@@ -52,6 +52,7 @@ public class MainPage extends WebToolPage {
 
 
     //region MainPage Methods
+
     public void checkPage() {
         String language = "EN";
         String url = "http://ia.ca/individuals";
