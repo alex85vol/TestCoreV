@@ -172,20 +172,23 @@ public class CalculatorPage extends WebToolPage {
     @Step("Moving Purchase Price Slider")
     public void moveSlider() throws InterruptedException {
         waitAndClick(getPurchasePriceSlider(), 5);
-        Thread.sleep(2000);
         Actions slider = new Actions(driver);
-        Action moveSlider = slider.clickAndHold(getPurchasePriceSlider())
-                .dragAndDrop(getPurchasePriceSlider(), getSliderPosition()).release().build();
-        moveSlider.perform();
-        Thread.sleep(2000);
+        Action moveSliderRight = slider.clickAndHold(getPurchasePriceSlider())
+                .dragAndDropBy(getPurchasePriceSlider(), 250, 0).release().build();
+        Action movesliderLeft = slider.clickAndHold(getPurchasePriceSlider())
+                .dragAndDropBy(getPurchasePriceSlider(), -150, 0).release().build();
+        moveSliderRight.perform();
         Assert.assertTrue(getPurchasePriceField().getText().equals(getPurchaseTooltip().getText()));
+        movesliderLeft.perform();
+        Assert.assertTrue(getPurchasePriceField().getText().equals(getPurchaseTooltip().getText()));
+
     }
 
     @Step("Clear Purchase Price Field")
     public void clearPurchase() {
         waitAndClick(getPurchasePriceField(), 5);
         clear(getPurchasePriceField());
-        waitAndClick(getPurchasePriceLabel(),5);
+        waitAndClick(getPurchasePriceLabel(), 5);
 
     }
 
@@ -249,14 +252,14 @@ public class CalculatorPage extends WebToolPage {
         waitAndClick(getPrecentageIcon(), 5);
     }
 
-    @Step("Clcik on clalcualtion button")
+    @Step("Click on clalculation button")
     public void provideCalculation() {
         waitAndClick(getCalculateButton(), 5);
     }
 
     @Step("Verify calculated result")
     public void checkResult() {
-
+        waitForElementIsVisible(getCalculationResultField(), 5);
         double result = Double.parseDouble(getText(getCalculationResultField()).replace('$', ' ').trim());
         Assert.assertEquals(result, userCalculatedPayments((IUser) user));
     }
