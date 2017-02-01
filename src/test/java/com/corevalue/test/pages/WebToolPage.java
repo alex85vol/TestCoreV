@@ -72,18 +72,6 @@ public abstract class WebToolPage {
     }
 
 
-    protected void clickJS(WebElement element) {
-        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", element);
-    }
-
-    protected WebElement intoView(WebElement e) {
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true)", e);
-        return e;
-    }
-
-
-
-
     protected WebElement waitForElementIsVisible(WebElement element, long timeoutInSeconds) {
         try {
             new WebDriverWait(this.driver, timeoutInSeconds).ignoring(StaleElementReferenceException.class)
@@ -95,9 +83,9 @@ public abstract class WebToolPage {
         return element;
     }
 
-    protected void sleepForLoad(int aWhile) {
+    protected void sleepForLoad(int Timeout) {
         try {
-            Thread.sleep(aWhile);
+            Thread.sleep(Timeout);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

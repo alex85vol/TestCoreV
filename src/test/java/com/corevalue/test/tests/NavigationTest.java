@@ -36,6 +36,12 @@ public class NavigationTest {
         mainPage.checkPage();
         MortgagePage mortgagePage = mainPage.gotoMortgagePage();
         CalculatorPage calculatorPage = mortgagePage.gotoCalculator();
+        calculatorPage.clearPurchase();
+        Thread.sleep(2000);
+        calculatorPage.moveSlider();
+        Thread.sleep(2000);
+        calculatorPage.clearPurchase();
+        Thread.sleep(2000);
         calculatorPage.setPurchasePrice();
         Thread.sleep(2000);
         calculatorPage.setDownPayment();
@@ -47,6 +53,8 @@ public class NavigationTest {
         calculatorPage.setInterest();
         Thread.sleep(2000);
         calculatorPage.provideCalculation();
+        Thread.sleep(2000);
+        calculatorPage.checkResult();
         Thread.sleep(10000);
     }
 

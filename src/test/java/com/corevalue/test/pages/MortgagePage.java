@@ -23,7 +23,7 @@ public class MortgagePage extends WebToolPage {
 
     @Step("Navigating to Calculator Page")
     public CalculatorPage gotoCalculator() {
-        waitAndClick(getCalculatePayments());
+        waitAndClick(getCalculatePayments(), 5);
         return new CalculatorPage(driver);
     }
 }

@@ -56,11 +56,18 @@ public class CalculatorPage extends WebToolPage {
     //region Webelements field
     //@FindBy(xpath = "(//div[@class='slider-selection tick-slider-selection'])[1]")
     //@FindBy(xpath = "(//div[@class='slider-tick custom in-selection'])[1]")
-    @FindBy(xpath = "//div[@class='slider-handle min-slider-handle custom'])[1]")
+    @FindBy(xpath = "(//div[@class='slider-handle min-slider-handle custom'])[1]")
     private WebElement purchasePriceSlider;
 
     @FindBy(xpath = "//input[@id='PrixPropriete']")
     private WebElement purchasePriceField;
+
+
+    @FindBy(xpath = "//label[@for='PrixPropriete']")
+    private WebElement purchasePriceLabel;
+
+    @FindBy(xpath = "(//div[@class='slider-tick custom'][@style='left: 100%;'] )[1]")
+    private WebElement sliderPosition;
 
     @FindBy(xpath = "//div[@class='tooltip-inner']")
     private WebElement purchaseTooltip;
@@ -109,6 +116,14 @@ public class CalculatorPage extends WebToolPage {
         return this.purchasePriceField;
     }
 
+    public WebElement getPurchasePriceLabel() {
+        return purchasePriceLabel;
+    }
+
+    public WebElement getSliderPosition() {
+        return sliderPosition;
+    }
+
     public WebElement getPurchaseTooltip() {
         return purchaseTooltip;
     }
@@ -132,9 +147,6 @@ public class CalculatorPage extends WebToolPage {
         return paymentFrequencyDropDown;
     }
 
-    public WebElement getCalculationResultField() {
-        return calculationResultField;
-    }
 
     public WebElement getAmortizationDropdown() {
         return this.amortizationDropdown;
@@ -144,20 +156,37 @@ public class CalculatorPage extends WebToolPage {
         return this.interestRateField;
     }
 
-    public WebElement getPrecentageIcon() {return this.precentageIcon;}
+    public WebElement getPrecentageIcon() {
+        return this.precentageIcon;
+    }
 
     public WebElement getCalculateButton() {
         return this.calculateButton;
     }
+
+    public WebElement getCalculationResultField() {
+        return calculationResultField;
+    }
     //endregion
 
     @Step("Moving Purchase Price Slider")
-    public void moveSlider() {
+    public void moveSlider() throws InterruptedException {
         waitAndClick(getPurchasePriceSlider(), 5);
+        Thread.sleep(2000);
         Actions slider = new Actions(driver);
         Action moveSlider = slider.clickAndHold(getPurchasePriceSlider())
-                .moveToElement(getPurchasePriceIncreaseButton()).release(getPurchasePriceIncreaseButton()).build();
+                .dragAndDrop(getPurchasePriceSlider(), getSliderPosition()).release().build();
+        moveSlider.perform();
+        Thread.sleep(2000);
         Assert.assertTrue(getPurchasePriceField().getText().equals(getPurchaseTooltip().getText()));
+    }
+
+    @Step("Clear Purchase Price Field")
+    public void clearPurchase() {
+        waitAndClick(getPurchasePriceField(), 5);
+        clear(getPurchasePriceField());
+        waitAndClick(getPurchasePriceLabel(),5);
+
     }
 
     @Step("Sets Purchase Price according to user data")
@@ -210,21 +239,27 @@ public class CalculatorPage extends WebToolPage {
 
     @Step("Sets user Amortization according to user data")
     public void setUserSetAmortization() {
-        waitAndClick(getAmortizationDropdown());
-        waitAndClick(driver.findElement(By.xpath(userSetAmortization)));
+        waitAndClick(getAmortizationDropdown(), 5);
+        waitAndClick(driver.findElement(By.xpath(userSetAmortization)), 5);
     }
 
     @Step("Sets Interest Rate according to user data")
-    public void setInterest(){
+    public void setInterest() {
         clearAndSendKeys(getInterestRateField(), Double.toString(userInterestRate((IUser) user)));
-        waitAndClick(getPrecentageIcon());
+        waitAndClick(getPrecentageIcon(), 5);
     }
 
-    @Step("Clcik on claclualtion button")
-    public void provideCalculation(){
+    @Step("Clcik on clalcualtion button")
+    public void provideCalculation() {
         waitAndClick(getCalculateButton(), 5);
     }
 
+    @Step("Verify calculated result")
+    public void checkResult() {
+
+        double result = Double.parseDouble(getText(getCalculationResultField()).replace('$', ' ').trim());
+        Assert.assertEquals(result, userCalculatedPayments((IUser) user));
+    }
 
 
 }

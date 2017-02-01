@@ -66,8 +66,8 @@ public class MainPage extends WebToolPage {
     }
 
     public MortgagePage gotoMortgagePage() {
-        getLoans().click();
-        getMortgage().click();
+        waitAndClick(getLoans(),5);
+        waitAndClick(getMortgage(),5);
         return new MortgagePage(driver);
     }
     //endregion
