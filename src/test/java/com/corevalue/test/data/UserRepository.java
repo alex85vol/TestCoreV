@@ -17,4 +17,15 @@ public final class UserRepository {
                 .setCalculatedPayments(836.75)
                 .build();
     }
+
+    public static User getNewUser() {
+        return User.get()
+                .setPurchasePrice(250000)
+                .setDownPayment(100000)
+                .setAmortization(25)
+                .setPaymentFrequency("Monthly")
+                .setInterestRate(2.50)
+                .setCalculatedPayments(671.95)
+                .build();
+    }
 }
